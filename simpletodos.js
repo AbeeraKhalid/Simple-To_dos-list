@@ -2,7 +2,6 @@
 import inquirer from "inquirer";
 import chalk from "chalk";
 let Todos = [];
-// let state = true; //condition
 while (true) {
     let To_dostask = await inquirer.prompt([
         {
@@ -26,6 +25,7 @@ while (true) {
         }
         break;
     }
-    // console.log(chalk.bgMagentaBright.yellow(Todos));
-    // state= To_dostask.addmore_task;
+    
 }
+// console.log(chalk.bgMagentaBright.yellow(Todos));
+    // state= To_dostask.addmore_task;
