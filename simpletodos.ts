@@ -16,13 +16,13 @@ while(state)
         name:"addmore_task/2ndques",
         type:"confirm",
         message:"Do you want to add more tasks in your todos list?",
-        default:"false"
+        default:"true"
 
     }
 
 ]);
 Todos.push(To_dostask.todo_ques);
-console.log(Todos);
+console.log(chalk.bgMagentaBright.yellow(Todos));
 state= To_dostask.addmore_task;
 
 
