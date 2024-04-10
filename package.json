@@ -1,11 +1,10 @@
 {
   "name": "abeera_197_simple-todos",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "This is a simple todos list.Todo Lists are the lists that we generally use to maintain our day-to-day tasks.",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "bin": "simpletodos.js",
- 
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
